@@ -28,11 +28,11 @@ Description: Library for Spherical Math
  manipulating regions on the sphere (commonly on Earth) and indexing 
  geographical data.
 
-Package: python-s2
-Section: python
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libs2 (= ${binary:Version}), ${python:depends}, ${swig:depends}
-Description: Python bindings for libs2
- The python-s2 package contains bindings for libs2, a library for spherical
- math.
-
+#Package: python-s2
+#Section: python
+#Architecture: any
+#Depends: ${shlibs:Depends}, ${misc:Depends}, libs2 (= ${binary:Version}), ${python:depends}, ${swig:depends}
+#Description: Python bindings for libs2
+# The python-s2 package contains bindings for libs2, a library for spherical
+# math.
+#
